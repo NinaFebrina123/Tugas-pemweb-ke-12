@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Image Picker</title>
+</head>
+<body>
+
+    <h1>Image Picker</h1>
+
+    <label for="imageSelect"></label>
+    <select id="imageSelect" onchange="displayImage()">
+        <option value="kucing.png">Kucing</option>
+        <option value="kelinci.png">Kelinci</option>
+        <option value="tupai.png">Tupai</option>
+        <option value="kingkong.png">Kingkong</option>
+        <option value="burung.png">Burung</option>
+       
+    </select>
+
+    <div id="imageContainer">
+        <img id="displayedImage" src="" alt="Pilih gambar">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
